@@ -1,0 +1,25 @@
+{
+  "contact": [
+    {
+      "firstname": "ola",
+      "lastname": "abayomi",
+      "emailAdress": "finix10@gmail.com",
+      "message": "how do i get paid  ooooo",
+      "id": 1
+    },
+    {
+      "firstName": "ola",
+      "lastName": "olasunkanmi",
+      "emailAddress": "finixd531@gmail.com",
+      "message": " ewfewf",
+      "id": 2
+    },
+    {
+      "firstName": "ola",
+      "lastName": "olasunkanmi",
+      "emailAddress": "finixd531@gmail.com",
+      "message": " hey i have an issue with your service ",
+      "id": 3
+    }
+  ]
+}
