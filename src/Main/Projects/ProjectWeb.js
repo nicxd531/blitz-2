@@ -18,7 +18,7 @@ setpageNumber(selected)
         <section>
         <section className="projectWeb clear-fix">
             
-        {error && <div className="err"><img src="/images/—Pngtree—404 error page_2596650.png"/></div>}  
+        {error && <div className="err"><img src="/Images/—Pngtree—404 error page_2596650.png" alt="failed"/></div>}  
         {isPending && <ProjectLoading/>}
          { data && 
             data

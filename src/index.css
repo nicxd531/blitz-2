@@ -126,6 +126,7 @@ a {
   float: right;
   margin-top: 40px;
   margin-left: auto;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.1);
 }
 .navOption {
   float: left;

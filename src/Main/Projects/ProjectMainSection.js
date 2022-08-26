@@ -22,7 +22,7 @@ const ProjectMainSection = () => {
                 </ul>
             </nav>
             <Routes>
-                <Route path='/Projects/' element={<ProjectAll />}/>
+                <Route path='' element={<ProjectAll />}/>
                 <Route path='/web' element={<ProjectWeb />}/>
                 <Route path='/print' element={<ProjectPrint />}/>
                 <Route path='/art' element={<ProjectArt />}/>

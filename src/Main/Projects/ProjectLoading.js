@@ -3,16 +3,16 @@ const ProjectLoading = () => {
         <>
         <div className="projectLoading">
        <div className="center">
-  <div class="wave"></div>
-  <div class="wave"></div>
-  <div class="wave"></div>
-  <div class="wave"></div>
-  <div class="wave"></div>
-  <div class="wave"></div>
-  <div class="wave"></div>
-  <div class="wave"></div>
-  <div class="wave"></div>
-  <div class="wave"></div>
+  <div className="wave"></div>
+  <div className="wave"></div>
+  <div className="wave"></div>
+  <div className="wave"></div>
+  <div className="wave"></div>
+  <div className="wave"></div>
+  <div className="wave"></div>
+  <div className="wave"></div>
+  <div className="wave"></div>
+  <div className="wave"></div>
 </div>
 </div>
         </>

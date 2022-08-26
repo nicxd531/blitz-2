@@ -10,8 +10,9 @@ import Mfooter from "./Main/Footer";
 function App() {
 
   return (
-    <Router>
+   
       <div className="App">
+         <Router>
         <Header/>
         <div className="content">
         <Routes>
@@ -23,8 +24,9 @@ function App() {
         </Routes>
         </div>
         <Mfooter/>
+        </Router>
       </div>
-    </Router>
+    
   );
 }
 

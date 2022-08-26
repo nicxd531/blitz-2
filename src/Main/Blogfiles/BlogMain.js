@@ -13,7 +13,7 @@ const BlogMain = () => {
                 <h2>blog</h2>
                 {pb}
             </div>
-            {error && <div>{error}</div>}
+            {error && <div className="err"><img src="/images/—Pngtree—404 error page_2596650.png" alt="failed"/></div>} 
             {isPending && <BlogLoading/>}
             {data && <BlogTemplate data={data}/>}
             
