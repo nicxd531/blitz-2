@@ -12,19 +12,19 @@ const Latest = () => {
             <div className="title-wrapper">
                 <h2>latest works</h2>
             </div>
-            {wError && <div style={myStyle}>{wError}</div>}
+            {wError && <div className="err" style={myStyle}><img src="/images/—Pngtree—404 error page_2596650.png"/></div>}
             {wPending && <HomeLoading/>}
             {web &&<Articletemplate  data={web } style={{marginRight:"4%"}}/>}
 
-            {pError && <div style={myStyle}>{pError}</div>}
+            {pError && <div className="err" style={myStyle}><img src="/images/—Pngtree—404 error page_2596650.png"/></div>}
             {pPending && <HomeLoading/>}
             {print &&<Articletemplate  data={print} style={{marginRight:"4%"}}/>}
 
-            {aError && <div style={myStyle}>{aError}</div>}
+            {aError && <div className="err" style={myStyle}><img src="/images/—Pngtree—404 error page_2596650.png"/></div>}
             {aPending && <HomeLoading/>}
             {art &&<Articletemplate  data={art} style={{marginRight:"4%"}}/>}
 
-            {phError && <div style={{float:"left",width:"22%",marginRight:"0px"}}>{phError}</div>}
+            {phError && <div className="err" style={{float:"left",width:"22%",marginRight:"0px"}}><img src="/images/—Pngtree—404 error page_2596650.png"/></div>}
             {phPending && <HomeLoading/>}
             {photoshop &&<Articletemplate  data={photoshop} style={{marginRight:"0px"}}/>}
         </section>

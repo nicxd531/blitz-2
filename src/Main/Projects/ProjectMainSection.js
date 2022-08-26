@@ -13,7 +13,7 @@ const ProjectMainSection = () => {
         <section>
             <nav>
                 <ul className="projectsCategory">
-                    <li><Link to={"/Projects/all"}>all</Link></li>
+                    <li><Link to={"/Projects/"}>all</Link></li>
                     <li><Link to={"/Projects/web"}>web</Link></li>
                     <li><Link to={"/Projects/print"}>print</Link></li>
                     <li><Link to={"/Projects/art"}>art</Link></li>
@@ -22,7 +22,7 @@ const ProjectMainSection = () => {
                 </ul>
             </nav>
             <Routes>
-                <Route path='/all' element={<ProjectAll />}/>
+                <Route path='/Projects/' element={<ProjectAll />}/>
                 <Route path='/web' element={<ProjectWeb />}/>
                 <Route path='/print' element={<ProjectPrint />}/>
                 <Route path='/art' element={<ProjectArt />}/>

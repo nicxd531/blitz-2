@@ -8,7 +8,7 @@ const MainImage = () => {
    
     return ( 
         <section className="clear-fix fixedWidth">
-            {error && <div>{error}</div>}
+            {error && <div className="err"><img src="/images/—Pngtree—404 error page_2596650.png"/></div>}
             {isPending && <ProjectLoading/>}
             {data && <ImageSlider data={data}/>}
         </section>

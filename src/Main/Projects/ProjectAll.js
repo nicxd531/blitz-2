@@ -29,7 +29,8 @@ const ProjectAll = () => {
             <section>
             <section className="projectWeb clear-fix">
                 
-                 {error && <div>{error}</div>}  {isPending && <ProjectLoading/>}
+             {error && <div className="err"><img src="/images/—Pngtree—404 error page_2596650.png"/></div>} 
+            {isPending && <ProjectLoading/>}
              { arrm && 
                 data
                 .slice(pagesVisited, pagesVisited + usersPerPage)
