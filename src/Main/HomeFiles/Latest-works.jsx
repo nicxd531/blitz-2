@@ -12,19 +12,19 @@ const Latest = () => {
             <div className="title-wrapper">
                 <h2>latest works</h2>
             </div>
-            {wError && <div className="err" style={myStyle}><img src="/images/—Pngtree—404 error page_2596650.png"/></div>}
+            {wError && <div className="err" style={myStyle}><img src="/images/—Pngtree—404 error page_2596650.png" alt="images"/></div>}
             {wPending && <HomeLoading/>}
             {web &&<Articletemplate  data={web } style={{marginRight:"4%"}}/>}
 
-            {pError && <div className="err" style={myStyle}><img src="/images/—Pngtree—404 error page_2596650.png"/></div>}
+            {pError && <div className="err" style={myStyle}><img src="/images/—Pngtree—404 error page_2596650.png" alt="images"/></div>}
             {pPending && <HomeLoading/>}
             {print &&<Articletemplate  data={print} style={{marginRight:"4%"}}/>}
 
-            {aError && <div className="err" style={myStyle}><img src="/images/—Pngtree—404 error page_2596650.png"/></div>}
+            {aError && <div className="err" style={myStyle}><img src="/images/—Pngtree—404 error page_2596650.png" alt="images"/></div>}
             {aPending && <HomeLoading/>}
             {art &&<Articletemplate  data={art} style={{marginRight:"4%"}}/>}
 
-            {phError && <div className="err" style={{float:"left",width:"22%",marginRight:"0px"}}><img src="/images/—Pngtree—404 error page_2596650.png"/></div>}
+            {phError && <div className="err" style={{float:"left",width:"22%",marginRight:"0px"}}><img src="/images/—Pngtree—404 error page_2596650.png" alt="images"/></div>}
             {phPending && <HomeLoading/>}
             {photoshop &&<Articletemplate  data={photoshop} style={{marginRight:"0px"}}/>}
         </section>
